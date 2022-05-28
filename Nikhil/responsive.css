@@ -1,0 +1,394 @@
+
+/*working only in ipad portrait device*/
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+        .card_content{
+            top:27%;
+        }
+  }
+@media only screen and (width: 820px) and (height: 1180px) and (orientation:portrait) {
+        .card_content{
+            top:27%;
+        }
+  }
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .menu_container {
+       padding:0 10px;
+    }
+    html{
+        font-size:14px;
+    }
+    .logo {
+        font-size:2.5rem;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .user_img_container{
+        width: 28px;
+        height: 28px;
+    }
+    .sidebar{
+        width: 40px;
+    }
+    .profile_container {
+        justify-content: center;
+    }
+    .menu_container{
+        flex: 4;
+        justify-content: flex-end;
+    }
+    .searchBar{
+        height:25px;
+        width:250px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color:blue; */
+        max-width:230px;
+        padding: 0 10px;
+        column-gap: 8px;
+        border-radius:2px;
+    }
+    .searchBar input{
+        height:25px;
+        width:90%;
+        font-size:1rem;
+        text-indent:10px;
+    }
+    .searchBar i{
+        color: var(--white-color);
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 65px;
+        background-color: var(--black-color);
+        position: fixed;
+        color: rgba(255, 255, 255, 0.698);
+        display: none;
+        bottom: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        overflow: hidden;
+        z-index: 8;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    .main_content_container{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .movies_container{
+        padding: 20px 0 0 35px;
+        /* gap: 15px; */
+        column-gap: 25px;
+        row-gap: 15px;
+    }
+    
+    .movie_card{
+        width: 22%;
+        height: auto;
+        background-color:rgba(0,0,0,0.9); 
+        color: #fff;
+        cursor: pointer;
+        border-radius:10px;
+        overflow: hidden;
+    }
+    .movie_card_img{
+        border-radius:10px;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        /* background-color:blue; */
+    }
+    .movie_card_img img{
+        max-width: 100%;
+        height: auto;
+        transition: transform .2s ease-out;
+    }
+    .movie_card:hover .movie_card_img img{
+        transform: scale(1.05);
+    }
+    .movie_details{
+        position: relative;
+        padding: 10px;
+    }
+    .movie_title{
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+        line-height:1.2;
+    }
+    .genre{
+        margin-right: 8px;
+        color: var(--off-white);
+        
+    }
+    .year{
+        color: lightgray;
+    }
+}
+
+
+
+/* ************************************************ */
+@media (min-width: 641px) and (max-width: 767px){
+
+
+    html{
+        font-size: 14px;
+    }
+
+    .navbar_container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .logo{
+        font-size:2.5rem;
+    }
+
+    .banner{
+        display: none;
+    }
+
+/************* Searchbar */
+    .searchBar{
+        height:20px;
+        width:250px;
+        max-width:200px;
+        padding: 0 10px;
+        column-gap: 8px;
+        border-radius:2px;
+    }
+    .searchBar input{
+        height:30px;
+        width:90%;
+        font-size:1rem;
+        text-indent:2px;
+    }
+    .searchBar i{
+        color: var(--white-color);
+    }
+
+/************* Search bar end */
+  
+    .user_img_container{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+.sidebar {
+    width: 100%;
+    height: 65px;
+    background-color: var(--black-color);
+    position: fixed;
+    color: rgba(255, 255, 255, 0.698);
+    display: none;
+    bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    z-index: 8;
+    left: 0;
+    padding: 10px 0;
+}
+
+/* ************************ */
+    .main_content_container{
+      
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .movies_container{
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .movie_card{
+        width: 30%;
+    }
+   
+}
+
+
+/* ************************************************ */
+
+@media (min-width: 481px) and (max-width: 640px){
+
+
+    html{
+        font-size: 14px;
+    }
+
+    .navbar_container{
+        padding: 0 20px;
+    }
+    
+
+/************* Searchbar */
+    .searchBar{
+        height:30px;
+        width:250px;
+        max-width:200px;
+        padding: 0 10px;
+        column-gap: 8px;
+        border-radius:2px;
+    }
+    .searchBar input{
+        height:30px;
+        width:90%;
+        font-size:1rem;
+        text-indent:2px;
+    }
+    .searchBar i{
+        color: var(--white-color);
+    }
+
+/************* Search bar end */
+  
+    .user_img_container{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 65px;
+        background-color: var(--black-color);
+        position: fixed;
+        color: rgba(255, 255, 255, 0.698);
+        display: none;
+        bottom: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        overflow: hidden;
+        z-index: 8;
+        left: 0;
+        padding: 10px 0;
+    }
+
+
+
+/* ************************ */
+    .main_content_container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .movies_container{
+        padding: 10px;
+        gap: 15px;
+    }
+    
+     .banner{
+        display: none;
+    }
+
+    .movie_card{
+        width: 30%;
+    }
+
+    .footer_links > li{
+        flex-basis: 50%;
+    }
+
+}
+
+
+
+/* ************************************************ */
+
+@media (max-width: 480px) {
+
+    html{
+        font-size: 14px;
+    }
+
+    .navbar_container{
+        padding: 0 10px;
+    }
+    .banner{
+        display: none;
+    }
+
+/************* Searchbar */
+    
+
+    .searchBar{
+        height:20px;
+        width:unset;
+        max-width:100px;
+        padding: 20px 10px;
+        column-gap: 8px;
+        border-radius:2px;
+        overflow: unset;
+        background-color:#151515;
+    }
+    /* .searchBar input{
+      display: none;
+    } */
+    .searchBar i {
+        color: var(--white-color);
+        font-size: 1.5rem;
+    }
+
+/************* Search bar end */
+  
+    .user_img_container {
+        margin-right: 30px;
+    }
+
+/* ************** sideBar */
+
+
+/* .sidebar {
+    width: 100%;
+    height: 65px;
+    background-color: var(--black-color);
+    position: fixed;
+    color: rgba(255, 255, 255, 0.698);
+    display: flex;
+    bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    z-index: 8;
+    left: 0;
+    padding: 10px 0;
+} */
+/* .sidebar .menu_items:last-child{
+    display: none;
+} */
+
+/* ******* sideBar end */
+
+
+
+/* ************************ */
+    .main_content_container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .movie_card{
+        width: 45%;
+    }
+
+
+    /* footer */
+
+    .socials {
+        width: 50%;
+    }
+    .footer_links > li{
+        flex-basis: 50%;
+    }
+}
